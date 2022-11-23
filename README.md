@@ -1,4 +1,4 @@
-# Gerenciamento de Históricos Escolares - Desenvolvimneto Web 💰💵💴💶💷💰
+# Gerenciamento de Históricos Escolares - Desenvolvimento Web 💰💵💴💶💷💰
 
 
 ## Tecnologias principais
