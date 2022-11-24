@@ -2,7 +2,7 @@
   <form @submit.prevent="doLogin()" class="form-login">
     <div class="card">
       <div class="card-header text-center">
-        <h1 class="mb-0">Expenses</h1>
+        <h1 class="mb-0">GHE</h1>
       </div>
       <div class="card-body">
         <div class="form-group">

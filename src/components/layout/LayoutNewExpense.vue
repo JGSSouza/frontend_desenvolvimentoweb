@@ -5,7 +5,7 @@
       class="btn btn-lg btn-outline-primary w-75"
     >
       <i class="fa fa-plus"></i>
-      Novo gasto
+      Novo aluno
     </button>
 
     <form @submit.prevent="submit()">
@@ -17,7 +17,7 @@
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title">Adicionar um novo gasto</h5>
+              <h5 class="modal-title">Adicionar nota</h5>
               <button
                 type="button"
                 class="close"
@@ -167,13 +167,13 @@ export default {
           if (err) {
             this.$root.$emit('Notification::show', {
               type: 'danger',
-              message: 'Não foi possível inserir o gasto, tente novamente.'
+              message: 'Não foi possível inserir a nota, tente novamente.'
             })
             this.loading = false
           } else {
             this.$root.$emit('Notification::show', {
               type: 'success',
-              message: 'Gasto inserido com sucesso.'
+              message: 'Nota inserida com sucesso.'
             })
             this.closeModal()
             this.loading = false
@@ -182,7 +182,7 @@ export default {
       } catch (err) {
         this.$root.$emit('Notification::show', {
           type: 'danger',
-          message: 'Não foi possível inserir o gasto, tente novamente.'
+          message: 'Não foi possível inserir a nota, tente novamente.'
         })
         this.loading = false
       } finally {
